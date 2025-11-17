@@ -31,7 +31,7 @@ def agregar_producto(): #------------------FUNCION PARA AGREGAR PRODUCTOS-------
             'valor': valor,
             'cantidad': cantidad,
             'total': total
-        }
+    }
    
     
 
@@ -42,7 +42,7 @@ def agregar_producto(): #------------------FUNCION PARA AGREGAR PRODUCTOS-------
             menu()
     else:
          agregar_producto()
-        # Detenemos el ciclo while para evitar que siga pidiendo productos
+        # Detenemos el ciclo while para evitar que siga pidiendo producto
 
 #-------------------- FUNCION PARA MOSTRARA INVENTARIO --------------------------#
 def mostrar_inventario():
